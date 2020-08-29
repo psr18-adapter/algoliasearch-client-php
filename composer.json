@@ -1,0 +1,19 @@
+{
+  "name": "psr18-adapter/algoliasearch-client-php",
+  "autoload": {
+    "psr-4": {
+      "Psr18Adapter\\Algolia\\": "src/"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "keywords": ["algolia", "psr-18"],
+  "license": "MIT",
+  "homepage": "https://github.com/psr18-adapter/algoliasearch-client-php",
+  "require": {
+    "php": ">=7.0",
+    "algolia/algoliasearch-client-php": ">=2.0",
+    "psr/http-client": "^1.0"
+  }
+}
