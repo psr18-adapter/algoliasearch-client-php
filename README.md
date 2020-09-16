@@ -11,8 +11,7 @@ composer require psr18-adapter/algoliasearch-client-php
 ## Usage
 
 Here's service definition that I used in combination with `algolia/search-bundle`.
-
-If you don't use this bundle, you should manage to turn this config to PHP code on your own. Contribution for such snippet welcome. 
+ 
 ```xml
 <service id="search.client" class="Algolia\AlgoliaSearch\SearchClient" public="true" lazy="true">
     <argument type="service">
@@ -36,6 +35,8 @@ If you don't use this bundle, you should manage to turn this config to PHP code 
 ```
 
 Yes, it's complicated and [attempt to make it a bit less so was rejected](https://github.com/algolia/algoliasearch-client-php/pull/596).
+
+If you don't use this bundle, you should manage to turn this config to PHP code on your own. Contribution for such snippet welcome.
 
 ## Licensing
 
